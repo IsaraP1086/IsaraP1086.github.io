@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects Daughter" >
+    <title> Profile </title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+        }
+        #rcon {
+            width: 350px;
+            height: 350px;
+            position:relative;
+            top: 35px;
+            border: 10px solid #ff7cd8;
+            border-radius: 25px;
+        }
+
+        h1 {
+            font-family: "Sofia";
+            font-size: 60px;
+            -webkit-text-stroke: 0.2px black;
+            color: #ff7cd8;
+            text-shadow: 2px 2px 5px white;
+            text-align: center;
+            position: relative;
+            top: 15px;
+        }
+
+        p {
+            font-family: 'Architects Daughter';
+            font-size: 40px;
+            color: white;
+            text-shadow: 2px 2px 5px #ff7cd8;
+            text-align: center;
+            position: relative;
+            top: 5px;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .column{
+            float: left;
+            width: 7%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #icong {
+            width: 75px;
+            height:  75px;
+            position: relative;
+            top: 0px;
+        }
+        #iconf {
+            width: 75px;
+            height: 75px;
+            position: relative;
+            top: 0px;
+        }
+    </style>
+</HEAD>
+<BODY>
+    <img src="./Picture/Me.jpg" id="rcon" class="center" />
+    <h1>Isara Phadungprasertkul</h1>
+    <p> My nickname is KJ </p>
+    <p> I like to Sleep,Game,Sport</p>
+    <div class="row" style="position: relative; left: 39%;">
+        <div class="column">
+
+            <a href="https://github.com/IsaraP1086" target="_blank">
+                <img src="./Picture/github.png" id="icong" />
+            </a>
+
+        </div>
+        <div class="column">
+
+            <a href="https://www.facebook.com/isara.phadungprasertkul" target="_blank">
+                <img src="./Picture/facebook.png" id="iconf" />
+            </a>
+
+        </div>
+        <div class="column">
+
+            <a href="https://www.instagram.com/_kjisp/" target="_blank">
+                <img src="./Picture/ig.png" id="iconf" />
+            </a>
+
+        </div>
+    </div>
+</BODY>
+</HTML>
